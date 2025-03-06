@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "http://cdn.gowinsemi.com.cn/Gowin_V${version}_Education_linux.tar.gz";
-    sha256 = "sha256-FpbJ+IDGkqA6cjn9RMCda2wJf4a+RhWI/JO1X+MW1cg=";
+    sha256 = "sha256-HNC5zoaJdQmxLwW+vQ7Cp7GTtxaMN9gmdlhOkhGm4vo=";
   };
   sourceRoot = ".";
 
