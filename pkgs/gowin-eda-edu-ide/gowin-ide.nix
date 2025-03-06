@@ -5,7 +5,7 @@
 }:
 stdenv.mkDerivation rec {
   pname = "gowin-eda-edu-ide";
-  version = "1.9.8.11";
+  version = "1.9.10.03";
 
   src = fetchurl {
     url = "http://cdn.gowinsemi.com.cn/Gowin_V${version}_Education_linux.tar.gz";
